@@ -1,7 +1,7 @@
-from flask import Flask #Импортируем оснонйо класс flask
+from flask import Flask  # Импортируем основной класс Flask
 app = Flask(__name__)
 
-@app.route('/') #Определяте маршрут для нашего приложения
+@app.route('/')  # Определите маршрут для нашего приложения
 def hello():
     return "Hi!"
 
